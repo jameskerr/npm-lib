@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Testing",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": ["*.js", "*.txt"],
   "scripts": {
     "prepack": "ls | cowsay > prepacked.txt",
     "prepare": "ls | cowsay > prepared.txt"
