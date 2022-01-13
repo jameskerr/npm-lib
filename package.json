@@ -4,8 +4,8 @@
   "description": "Testing",
   "main": "index.js",
   "scripts": {
-    "prepack": "echo prepack && ls -la",
-    "prepare": "echo prepare && ls -la"
+    "prepack": "touch prepacked.txt",
+    "prepare": "touch prepared.txt"
   },
   "repository": {
     "type": "git",
