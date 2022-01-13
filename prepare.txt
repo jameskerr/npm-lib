@@ -1,0 +1,14 @@
+ ___________________
+/ README.md         \
+| index.js          |
+| main.go           |
+| node_modules      |
+| package-lock.json |
+| package.json      |
+\ prepare.txt       /
+ -------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||

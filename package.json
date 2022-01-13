@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Testing",
   "main": "index.js",
+  "files": ["index.js"],
   "scripts": {
-    "prepack": "touch prepacked.txt",
-    "prepare": "touch prepared.txt"
+    "prepack": "ll | cowsay > prepacked.txt",
+    "prepare": "ll | cowsay > prepared.txt"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jameskerr/npm-lib/issues"
   },
-  "homepage": "https://github.com/jameskerr/npm-lib#readme"
+  "homepage": "https://github.com/jameskerr/npm-lib#readme",
+  "devDependencies": {
+    "cowsay": "^1.5.0"
+  }
 }
